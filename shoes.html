@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chanel Collection</title>
+    <style>
+        /* Main page CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 50px;
+            background-color: #000;
+            color: #fff;
+        }
+        header img {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 6em;
+            margin: 0;
+        }
+        .quote {
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            color: #ffffff;
+            font-size: 1.5em;
+            margin: 20px 0 40px 0;
+        }
+        .product {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .product img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .product-price {
+            font-size: 1.2rem;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        .product-description {
+            font-size: 1rem;
+            color: #000000;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        .buy-now-button {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .buy-now-button:hover {
+            background-color: #4b4b4b;
+        }
+        .products-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .go-back-button {
+            display: inline-block;
+            margin: 40px 0;
+            background-color: #000;
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .go-back-button:hover {
+            background-color: #4b4b4b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Chanelllll logo.jpg.png" alt="Chanel Logo"> <!-- Add your logo image here -->
+        <h1>CHANEL</h1>
+        <div class="quote">Chanel Shoes Collections</div>
+    </header>
+
+    <div class="products-grid">
+        <!-- Product 1: Chanel Quilted Lambskin Loafers -->
+        <div class="product">
+            <img src="Chanel Quilted Lambskin Loafers.jpg" alt="Chanel Quilted Lambskin Loafers">
+            <div class="product-name">Chanel Quilted Lambskin Loafers</div>
+            <div class="product-price">$1,250</div>
+            <div class="product-description">These timeless loafers feature Chanel’s signature quilted lambskin leather with a sleek, polished finish. Accented with the classic CC logo on the upper, they offer both luxury and comfort, perfect for both casual and formal settings.</div>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+
+        <!-- Product 2: Chanel Shiny Goatskin & Calfskin Quilted Lace-Up Combat Boots -->
+        <div class="product">
+            <img src="Chanel Shiny Goatskin & Calfskin Quilted Lace-Up Combat Boots.jpg" alt="Chanel Shiny Goatskin & Calfskin Quilted Lace-Up Combat Boots">
+            <div class="product-name">Chanel Shiny Goatskin & Calfskin Quilted Lace-Up Combat Boots</div>
+            <div class="product-price">$2,500</div>
+            <div class="product-description">Elegant combat boots crafted from shiny goatskin and calfskin leather, featuring a quilted design and lace-up front in a striking white and black color scheme. Perfect for a stylish edge in any outfit.</div>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+
+        <!-- Product 3: Chanel Black Leather CC Chain Link High Top Sneakers -->
+        <div class="product">
+            <img src="Chanel Black Leather CC Chain Link High Top Sneakers.jpg" alt="Chanel Black Leather CC Chain Link High Top Sneakers">
+            <div class="product-name">Chanel Black Leather CC Chain Link High Top Sneakers</div>
+            <div class="product-price">$1,300</div>
+            <div class="product-description">Stylish high-top sneakers crafted from premium black leather, featuring a distinctive CC chain link design. These sneakers blend luxury with a sporty aesthetic, perfect for casual outings with a touch of elegance.</div>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- Go Back Button -->
+    <a href="javascript:history.back()" class="go-back-button">Go Back</a>
+</body>
+</html>

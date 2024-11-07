@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chanel Collection</title>
+    <style>
+        /* Main page CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 50px;
+            background-color: #000;
+            color: #fff;
+        }
+        header img {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 6em;
+            margin: 0;
+        }
+        .quote {
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            color: #ffffff;
+            font-size: 1.5em;
+            margin: 20px 0 40px 0;
+        }
+        .product {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .product img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .product-price {
+            font-size: 1.2rem;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        .product-description {
+            font-size: 1rem;
+            color: #000000;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        .buy-now-button {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .buy-now-button:hover {
+            background-color: #4b4b4b;
+        }
+        .products-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .go-back-button {
+            display: inline-block;
+            margin: 40px 0;
+            background-color: #000;
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .go-back-button:hover {
+            background-color: #4b4b4b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Chanelllll logo.jpg.png" alt="Chanel Logo"> <!-- Add your logo image here -->
+        <h1>CHANEL</h1>
+        <div class="quote">Chanel Clothing Collections</div>
+    </header>
+
+    <div class="products-grid">
+        <!-- Product 1: Tweed Jacket -->
+        <div class="product">
+            <img src="Chanel Tweed Jacket.jpg" alt="Chanel Tweed Jacket">
+            <div class="product-name">Chanel Tweed Jacket</div>
+            <div class="product-price">$4,500</div>
+            <div class="product-description">A classic tweed jacket featuring the iconic Chanel design, perfectly tailored for a sophisticated silhouette.</div>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+
+        <!-- Product 2: 1988 Fall/Winter collection -->
+        <div class="product">
+            <img src="Chanel's 1988.jpg" alt="Chanel's 1988 Fall/Winter collection">
+            <div class="product-name">Chanel's 1988 Fall/Winter collection</div>
+            <div class="product-price">$15,000</div>
+            <div class="product-description">A vintage Chanel mini-dress from the 1988 Fall/Winter collection, this white dress features a structured bodice, a black ribbon belt, and a signature white camellia flower at the center, embodying timeless Chanel elegance.</div>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+
+        <!-- Product 3: Silk Blouse -->
+        <div class="product">
+            <img src="Chanel silk blouse.jpg" alt="Chanel Silk Blouse">
+            <div class="product-name">Chanel Silk Blouse</div>
+            <div class="product-price">$1,800</div>
+            <div class="product-description">A luxurious silk blouse with a relaxed fit and delicate embellishments, perfect for layering or wearing alone.</div>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- Go Back Button -->
+    <a href="javascript:history.back()" class="go-back-button">Go Back</a>
+</body>
+</html>

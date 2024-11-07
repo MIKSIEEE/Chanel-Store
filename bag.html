@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chanel Collection</title>
+    <style>
+        /* Main page CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 50px;
+            background-color: #000;
+            color: #fff;
+        }
+        header img {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 6em;
+            margin: 0;
+        }
+        .quote {
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            color: #ffffff;
+            font-size: 1.5em;
+            margin: 20px 0 40px 0;
+        }
+        .product {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .product img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .product-price {
+            font-size: 1.2rem;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        .product-description {
+            font-size: 1rem;
+            color: #000000;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        .buy-now-button {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .buy-now-button:hover {
+            background-color: #4b4b4b;
+        }
+        .products-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .go-back-button {
+            display: inline-block;
+            margin: 40px 0;
+            background-color: #000;
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .go-back-button:hover {
+            background-color: #4b4b4b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Chanelllll logo.jpg.png" alt="Chanel Logo"> <!-- Add your logo image here -->
+        <h1>CHANEL</h1>
+        <div class="quote">Chanel Bags Collections</div>
+    </header>
+
+    <div class="products-grid">
+        <!-- Product 1: Chanel Classic Flap Bag -->
+        <div class="product">
+            <img src="Chanel classic flap bag.jpg" alt="Chanel Classic Flap Bag">
+            <div class="product-name">Chanel Classic Flap Bag</div>
+            <div class="product-price">$6,800</div>
+            <div class="product-description">The quintessential flap bag in lambskin leather, featuring a timeless design and the iconic CC turn-lock closure.</div>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+
+        <!-- Product 2: Chanel Boy Bag -->
+        <div class="product">
+            <img src="Chanel Boy bag.jpg" alt="Chanel Boy Bag">
+            <div class="product-name">Chanel Boy Bag</div>
+            <div class="product-price">$5,500</div>
+            <div class="product-description">A sophisticated bag with a modern edge, crafted from aged calfskin leather with a bold boy clasp.</div>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+
+        <!-- Product 3: Chanel Gabrielle Hobo Bag -->
+        <div class="product">
+            <img src="Chanel Gabrielle Hobo Bag.jpg" alt="Chanel Gabrielle Hobo Bag">
+            <div class="product-name">Chanel Gabrielle Hobo Bag</div>
+            <div class="product-price">$3,800</div>
+            <div class="product-description">An elegant hobo bag made from a mix of smooth and textured leather, known for its unique silhouette.</div>
+            <button class="buy-now-button">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- Go Back Button -->
+    <a href="javascript:history.back()" class="go-back-button">Go Back</a>
+</body>
+</html>
